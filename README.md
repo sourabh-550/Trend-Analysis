@@ -14,7 +14,3 @@ This project predicts and visualizes **emerging cultural trends** from Reddit po
 - 🎨 **Visualization:** Word clouds and growth reports to visualize rising cultural discussions.
 - 🌐 **Deployment Ready:** Streamlit-compatible structure for future deployment as an interactive dashboard.
 
----
-
-## 🧱 Project Structure
-
