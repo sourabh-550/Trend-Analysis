@@ -1,0 +1,70 @@
+# -------------------------------
+# 🧠 CULTURAL TREND PREDICTION PROJECT
+# -------------------------------
+
+# ✅ Ignore virtual environment
+venv/
+env/
+.venv/
+
+# ✅ Ignore Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ✅ Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ✅ Ignore system files
+.DS_Store
+Thumbs.db
+
+# ✅ Ignore IDE/Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# ✅ Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+
+# ✅ Ignore large or intermediate data files
+data/Raw/
+data/embeddings/
+data/clustered/
+data/cleaned/
+data/report/
+
+# ✅ Keep only essential CSVs if you want
+# (uncomment below if you want to keep small cleaned CSVs)
+# !data/cleaned/cleaned_reddit_data.csv
+# !data/report/trend_report.csv
+
+# ✅ Ignore model weights or large ML artifacts
+*.npy
+*.pt
+*.h5
+*.pkl
+*.joblib
+
+# ✅ Ignore cache folders created by libraries
+.cache/
+datasets/
+checkpoints/
+outputs/
+
+# ✅ Ignore your local config or API keys (important!)
+config.json
+secrets.json
+*.env
+*.ini
+*.yaml
+
+# ✅ Ignore any temporary exports or backups
+backup/
+exports/
+temp/
+tmp/
